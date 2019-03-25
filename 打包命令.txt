@@ -1,0 +1,5 @@
+1. powershell 获取version file示例
+(py36) C:\Users\logan>pyi-grab_version C:\Windows\system32\notepad.exe
+
+2. 打包
+pyinstaller  --onefile --windowed --icon=main.ico -n "MASK标注工具" --version-file=file_version_info.txt --clean main.py
